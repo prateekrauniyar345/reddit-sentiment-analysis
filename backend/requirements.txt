@@ -1,0 +1,67 @@
+# Backend Requirements for Reddit Sentiment Analysis
+
+# FastAPI and async web framework
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Reddit API
+praw
+
+# OpenAI for sentiment analysis
+openai
+
+# Database
+aiosqlite
+# sqlite3
+
+# Data processing
+pandas
+numpy
+
+# Text processing and sentiment analysis
+textblob
+nltk
+wordcloud
+
+# Visualization
+plotly
+matplotlib
+
+# HTTP client
+aiohttp
+
+# Environment management
+python-dotenv
+
+# Image processing
+pillow
+
+# Scientific computing
+scipy
+
+# Async utilities
+asyncio-throttle
+
+# Logging and monitoring
+structlog
+
+# Validation
+pydantic
+
+# CORS middleware
+# python-cors
+
+# Background tasks
+celery
+redis
+
+# Development dependencies
+pytest
+pytest-asyncio
+black
+flake8
+mypy
+
+# Production dependencies
+gunicorn

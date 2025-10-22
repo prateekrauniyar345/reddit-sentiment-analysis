@@ -1,0 +1,64 @@
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+backend/venv/
+backend/.venv/
+
+
+# Dependency caches
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+*.whl
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Gradio cache (if applicable)
+gradio_cached_examples/
+
+# Exported results or data files
+*.csv
+*.xlsx
+results/
+
+# Temporary files
+*.tmp
+*~
+._*
+*.sh
+
+
+
+# Environment variables
+.env
+.env.local
+
+
+
+
+# ignore the node modules
+node_modules/
+frontend/node_modules/
+
+
+# ignore the videos
+videos/
