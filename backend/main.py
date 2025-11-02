@@ -134,7 +134,11 @@ active_tasks: Dict[str, Dict] = {}
 @app.get("/")
 async def root():
     """Health check endpoint"""
-    return {"message": "Reddit Sentiment Analysis API", "version": "2.0.0"}
+    return {
+        "message": "Reddit Sentiment Analysis API",
+        "version": "2.0.0", 
+        "status": "running"
+    }
 
 @app.post("/analyze", response_model=Dict[str, str])
 async def start_analysis(request: AnalysisRequest, background_tasks: BackgroundTasks):
