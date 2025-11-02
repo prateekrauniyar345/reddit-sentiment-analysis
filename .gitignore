@@ -62,3 +62,10 @@ frontend/node_modules/
 
 # ignore the videos
 videos/
+
+
+
+
+
+# ignore. the trsh folder
+trash/
